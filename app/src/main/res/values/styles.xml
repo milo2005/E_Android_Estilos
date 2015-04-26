@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="Titulo" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+
+    <style name="ButtonAccent" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_accent</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+       <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#1A237E</item>
+        <item name="colorAccent">#651FFF</item>
+        <item name="android:windowBackground">@drawable/window_bg</item>
+    </style>
+
+</resources>
